@@ -112,9 +112,3 @@ await k3lCollectible.updateTokenURI(tokenId, "ipfs://newTokenURI");
 Distribuído sob a licença MIT. Veja `LICENSE.md` para detalhes.
 
 ---
-
-## 🤝 Suporte
-Para dúvidas e suporte, abra uma issue no repositório do GitHub.
-```
-
-Agora você pode copiar e colar todo o conteúdo acima no seu arquivo `README.md` sem problemas.
