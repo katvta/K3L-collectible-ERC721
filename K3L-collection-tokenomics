@@ -1,0 +1,128 @@
+# Tokenomics do K3L Collectible
+
+Este documento descreve a estrutura de tokenomics do **K3L Collectible**, abordando a distribuição, utilidade e mecânicas do token que governam o ecossistema da plataforma de NFTs.
+
+---
+
+## 🚀 Visão Geral do Token
+
+- **Nome do Token:** K3L Token  
+- **Símbolo:** K3L  
+- **Padrão:** ERC-721 (NFT)  
+- **Blockchain:** Ethereum (ou outra rede compatível)  
+- **Tipo de Token:** Não Fungível (NFT)  
+
+O **K3L Collectible** é um contrato inteligente baseado no padrão ERC-721 que permite a criação, negociação, staking e queima de NFTs exclusivos. Os NFTs são classificados em diferentes raridades, cada uma com características exclusivas e valores de governança associados.
+
+---
+
+## 📊 Distribuição do Token
+
+A distribuição dos **K3L Tokens** no ecossistema será realizada com base em diversas funcionalidades, incluindo presale, staking, queima e governança. A seguir está a distribuição dos tokens dentro do sistema de NFTs.
+
+| Categoria                              | Porcentagem | Quantidade Estimada |
+|----------------------------------------|-------------|----------------------|
+| **Oferta Inicial (Minting)**           | 50%         | 5000 NFTs            |
+| **Staking Rewards**                    | 20%         | 2000 NFTs            |
+| **Queima (Burning)**                   | 5%          | 500 NFTs             |
+| **Whitelist e Presale**                | 15%         | 1500 NFTs            |
+| **Governança e Participação**          | 10%         | 1000 NFTs            |
+
+### Detalhamento da Oferta Inicial
+- **Total de NFTs Mintados:** 10.000
+- **Preço da Presale:** 0.05 ETH por NFT (para endereços na whitelist)
+- **Preço da Venda Pública:** 0.1 ETH por NFT
+
+A oferta inicial será dividida em **NFTs mintados** e **NFTs disponíveis para presale**.
+
+---
+
+## 🛠️ Utilização do Token
+
+### 1. **Mintagem de NFTs**
+O processo de mintagem envolve a criação de NFTs exclusivos, cada um com um valor de raridade e um token URI (endereço de metadados). Durante a **presale**, os endereços na whitelist podem comprar até 2 NFTs cada, enquanto o preço para a venda pública será de 0.1 ETH.
+
+- **Raridades dos NFTs:** Comum, Rara, Épica, Lendária.
+- **Preço de Mintagem:** 0.05 ETH para whitelist (presale), 0.1 ETH para venda pública.
+
+### 2. **Staking e Recompensas**
+Os usuários podem **"travar" (stake)** seus NFTs para obter benefícios dentro do ecossistema. O staking de NFTs também influencia a participação em futuras votações e pode ser usado para aumentar o poder de governança.
+
+- **Recompensas de Staking:** Baseadas na raridade do NFT. NFTs mais raros terão um poder de votação maior e recompensas maiores.
+- **Poder de Votação:** 
+  - Comum: 1 ponto de poder de votação.
+  - Rara: 3 pontos de poder de votação.
+  - Épica: 5 pontos de poder de votação.
+  - Lendária: 10 pontos de poder de votação.
+
+### 3. **Queima de NFTs**
+A funcionalidade de **queima de NFTs** permite que os usuários destruam seus tokens voluntariamente, ajudando a reduzir a oferta total e, assim, aumentar a escassez e o valor dos tokens restantes.
+
+- **Queima de NFTs:** Cada NFT queimado retira permanentemente o token do ecossistema, reduzindo a oferta total.
+
+### 4. **Presale e Whitelist**
+Durante a presale, os usuários que foram adicionados à whitelist terão a oportunidade de comprar NFTs a um preço com desconto (0.05 ETH por NFT).
+
+- **Limite de Mintagem na Whitelist:** 2 NFTs por endereço.
+- **Preço da Presale:** 0.05 ETH.
+- **Whitelist:** Endereços aprovados pelo proprietário do contrato podem participar da presale.
+
+---
+
+## 💸 Economia do Token
+
+### 1. **Emissão e Oferta**
+- **Oferta Máxima de NFTs:** 10.000 NFTs.
+- **Emissão Inicial:** Durante a presale e venda pública.
+- **Total de NFTs para Staking e Recompensas:** 20% da oferta total.
+- **Queima de NFTs:** 5% da oferta total, ajudando a controlar a inflação e aumentar a escassez.
+
+### 2. **Taxas de Transação e Marketplace**
+O contrato aplica uma **taxa de marketplace** para cada transação de venda de NFTs. A taxa é definida em 2.5%, que é utilizada para financiar o desenvolvimento contínuo do projeto.
+
+- **Taxa de Marketplace:** 2.5% do valor da venda de NFTs.
+- **Destinação da Taxa:** A taxa será paga em K3L e utilizada para sustentar as operações do projeto e recompensas de staking.
+
+### 3. **Presale e ICO**
+A presale e a ICO (Oferta Inicial de NFTs) são fundamentais para arrecadar fundos para o desenvolvimento do projeto. A presale tem preços reduzidos, oferecendo benefícios exclusivos aos primeiros participantes.
+
+- **Benefícios da Presale:** Preço reduzido e acesso antecipado a coleções exclusivas.
+- **Quantidade de NFTs na Presale:** 1500 NFTs.
+
+---
+
+## 📈 Roadmap
+
+### Fase 1: Lançamento Inicial
+- Lançamento da **presale** e ICO.
+- Criação de NFTs e disponibilidade para mintagem pública.
+- Lançamento da funcionalidade de **staking**.
+
+### Fase 2: Expansão e Governança
+- Implementação de **governança descentralizada**.
+- Expansão do ecossistema com novos casos de uso para NFTs.
+- Aumento da **participação da comunidade** nas decisões do projeto.
+
+### Fase 3: Estabilidade e Crescimento
+- Aumento da **liquidez** para NFTs no marketplace.
+- Melhoria contínua no sistema de **recompensas de staking** e **votação**.
+- Parcerias estratégicas e expansão global.
+
+---
+
+## 🔒 Segurança
+
+- **Auditoria de Código:** O contrato foi projetado com práticas de segurança padrão da indústria e será auditado regularmente.
+- **Pausabilidade:** O contrato inclui funcionalidades de pausa em caso de emergência, garantindo a segurança dos fundos e operações.
+
+---
+
+## 📄 Licença
+
+Distribuído sob a licença MIT. Veja `LICENSE.md` para detalhes.
+
+---
+
+## 🤝 Suporte
+
+Para dúvidas e suporte, abra uma issue no repositório do GitHub ou entre em contato com a equipe através do nosso canal de suporte.
